@@ -1,0 +1,181 @@
+{
+  "generator": "soundpass/0.1.0",
+  "palette": "retro",
+  "key": null,
+  "sample_rate": 44100,
+  "sounds": [
+    {
+      "id": "ui_click",
+      "archetype": "ui_click",
+      "category": "ui",
+      "desc": "Button press: a tight, short tick.",
+      "ladder": false,
+      "files": [
+        "ui_click.wav"
+      ],
+      "durations": [
+        0.032
+      ]
+    },
+    {
+      "id": "ui_confirm",
+      "archetype": "ui_confirm",
+      "category": "ui",
+      "desc": "Confirm or OK: two notes going up.",
+      "ladder": false,
+      "files": [
+        "ui_confirm.wav"
+      ],
+      "durations": [
+        0.256
+      ]
+    },
+    {
+      "id": "ui_error",
+      "archetype": "ui_error",
+      "category": "ui",
+      "desc": "Error, denied or invalid move: a low double buzz.",
+      "ladder": false,
+      "files": [
+        "ui_error.wav"
+      ],
+      "durations": [
+        0.206
+      ]
+    },
+    {
+      "id": "coin",
+      "archetype": "coin",
+      "category": "pickup",
+      "desc": "Coin or small pickup: the bright two-note 'ding-ding'.",
+      "ladder": false,
+      "files": [
+        "coin.wav"
+      ],
+      "durations": [
+        0.289
+      ]
+    },
+    {
+      "id": "gem",
+      "archetype": "gem",
+      "category": "pickup",
+      "desc": "Gem, star or rare pickup: a sparkling rising arpeggio.",
+      "ladder": false,
+      "files": [
+        "gem.wav"
+      ],
+      "durations": [
+        0.536
+      ]
+    },
+    {
+      "id": "powerup",
+      "archetype": "powerup",
+      "category": "pickup",
+      "desc": "Power-up: a fast climbing arpeggio that keeps going.",
+      "ladder": false,
+      "files": [
+        "powerup.wav"
+      ],
+      "durations": [
+        0.393
+      ]
+    },
+    {
+      "id": "jump",
+      "archetype": "jump",
+      "category": "movement",
+      "desc": "Jump: a quick upward pitch sweep.",
+      "ladder": false,
+      "files": [
+        "jump.wav"
+      ],
+      "durations": [
+        0.155
+      ]
+    },
+    {
+      "id": "hit",
+      "archetype": "hit",
+      "category": "combat",
+      "desc": "Hit or impact on something else: a punchy thud with grit.",
+      "ladder": false,
+      "files": [
+        "hit.wav"
+      ],
+      "durations": [
+        0.087
+      ]
+    },
+    {
+      "id": "explosion",
+      "archetype": "explosion",
+      "category": "combat",
+      "desc": "Explosion: a big noisy boom with a sub drop.",
+      "ladder": false,
+      "files": [
+        "explosion.wav"
+      ],
+      "durations": [
+        0.897
+      ]
+    },
+    {
+      "id": "match",
+      "archetype": "match",
+      "category": "puzzle",
+      "desc": "Match, pop or tile clear: a bubbly pop with a note.",
+      "ladder": false,
+      "files": [
+        "match.wav"
+      ],
+      "durations": [
+        0.168
+      ]
+    },
+    {
+      "id": "combo",
+      "archetype": "combo",
+      "category": "puzzle",
+      "desc": "Combo / streak ladder: each variant is one scale step higher.",
+      "ladder": true,
+      "files": [
+        "combo_01.wav",
+        "combo_02.wav",
+        "combo_03.wav"
+      ],
+      "durations": [
+        0.218,
+        0.218,
+        0.218
+      ]
+    },
+    {
+      "id": "level_complete",
+      "archetype": "level_complete",
+      "category": "jingle",
+      "desc": "Level complete or victory: a short rising fanfare.",
+      "ladder": false,
+      "files": [
+        "level_complete.wav"
+      ],
+      "durations": [
+        1.011
+      ]
+    },
+    {
+      "id": "game_over",
+      "archetype": "game_over",
+      "category": "jingle",
+      "desc": "Game over or lose: the sad descending 'wah wah wah wahhh'.",
+      "ladder": false,
+      "files": [
+        "game_over.wav"
+      ],
+      "durations": [
+        1.667
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "soundpass",
+  "version": "0.1.0",
+  "description": "Give your whole game a sound pass: find the events in your code, synthesize a matching set of sound effects offline in one consistent style, and wire them in. Unity, Godot, Flutter, web, Cocos.",
+  "author": { "name": "Kinopi Studio", "url": "https://github.com/KinopiStudio" },
+  "homepage": "https://github.com/KinopiStudio/soundpass",
+  "repository": "https://github.com/KinopiStudio/soundpass",
+  "license": "MIT",
+  "keywords": ["gamedev", "sound-effects", "sfx", "audio", "unity", "godot", "flutter", "phaser", "synthesizer", "game-feel"]
+}

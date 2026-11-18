@@ -1,0 +1,19 @@
+{
+  "palette": "cozy",
+  "out": "Assets/Resources/SoundPass",
+  "seed": 1,
+  "sounds": [
+    {"id": "ui_click", "archetype": "ui_click"},
+    {"id": "ui_back", "archetype": "ui_back"},
+    {"id": "ui_popup", "archetype": "ui_popup"},
+    {"id": "swap", "archetype": "swap", "variants": 3},
+    {"id": "invalid", "archetype": "ui_error"},
+    {"id": "match", "archetype": "match", "variants": 4},
+    {"id": "combo", "archetype": "combo", "variants": 8},
+    {"id": "coin", "archetype": "coin", "variants": 3, "tweak": {"pitch": 2}},
+    {"id": "star", "archetype": "star", "variants": 3},
+    {"id": "level_complete", "archetype": "level_complete"},
+    {"id": "game_over", "archetype": "game_over", "tweak": {"gain_db": -2}},
+    {"id": "bomb", "archetype": "explosion", "tweak": {"length": 0.7, "brightness": 1.2}}
+  ]
+}

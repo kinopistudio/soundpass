@@ -1,0 +1,24 @@
+{
+  "name": "kinopistudio",
+  "owner": {
+    "name": "Kinopi Studio",
+    "url": "https://github.com/KinopiStudio"
+  },
+  "metadata": {
+    "description": "Game development plugins by Kinopi Studio."
+  },
+  "plugins": [
+    {
+      "name": "soundpass",
+      "source": "./",
+      "description": "Give your whole game a sound pass: coherent, offline-synthesized sound effects wired into Unity, Godot, Flutter, web and Cocos games.",
+      "version": "0.1.0",
+      "category": "development",
+      "tags": [
+        "gamedev",
+        "audio",
+        "sfx"
+      ]
+    }
+  ]
+}
